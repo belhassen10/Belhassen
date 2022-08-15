@@ -122,9 +122,9 @@ class ScrapeRssSpider(scrapy.Spider):
         df = pd.DataFrame(items, columns=['title', 'link','author','pubDate','description','text'])
         
         
-        filename= r'C:\Users\Amdoun\Desktop\Stage\le_360\le_360\le_360.csv'
+        filename= 'le360/le_360.csv'
         if os.path.exists(filename):
             print('fichier existe , data ajouté avec succée')
-            df.to_csv('le_360.csv', mode='a', index=False)
+            df.to_csv('le360/le_360.csv', mode='a', index=False)
         else :
-            df.to_csv('le_360.csv', index=False )
+            df.to_csv('le360/le_360.csv', index=False )
