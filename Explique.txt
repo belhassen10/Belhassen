@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ce code fait la somme de deux nombre entier puis affiche leur somme 
+=======
+ce code fait la somme de deux nombre et affiche leur somme 
+bali7 balou7a blilili7a
+>>>>>>> 3b750c0e5835c3fc9522ee4d3afc60542efce2d2
