@@ -1,4 +1,4 @@
-# Demander deux nombres à l'utilisateur
+    # Demander deux nombres à l'utilisateur
 nombre1 = 2
 nombre2 = 10
 
@@ -6,4 +6,5 @@ nombre2 = 10
 somme = (nombre1 + nombre2)*100
 
 # Afficher le résultat
-print(f"La somme de {nombre1} et {nombre2} est {somme}.")
+print(f"La somme de {nombre1     } et {nombre2} est {somme}.")
+         
